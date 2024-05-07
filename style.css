@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.iphone {
+    width: 600px;
+    height: 600px;
+    background-color: #fafafa;
+    align-items: center; /* 垂直居中 */
+}
+
+.app-icon1{
+    width: 200px;
+    height: 200px;
+}
+
+.logo {
+    width: 350px; /* 设定固定宽度 */
+    height: 150px; /* 设定固定高度 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    width: 350px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.container-small{
+    width: 350px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin: auto;
+    padding: 5px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.options {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.options a {
+    color: #003569;
+    text-decoration: none;
+}
+
+.link{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #f9f9f9;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer link{
+    position: fixed;
+    color: #808080;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 10px;
+    flex-wrap: wrap;
+    background-color: #f9f9f9;
+    justify-content: space-between;
+}
